@@ -1,0 +1,1702 @@
+{
+ "elements": {
+  "marker_beg": {
+   "__class__": "Marker"
+  },
+  "qp0": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 3.1681834017374193
+  },
+  "RF_acc_1": {
+   "__class__": "ReferenceEnergyIncrease",
+   "Delta_p0c": 2750000000.0
+  },
+  "cavity_1": {
+   "__class__": "Cavity",
+   "lag": 135.0,
+   "frequency": 1300000000.0,
+   "voltage": 3889087296.526011
+  },
+  "drift_RF_ins_1": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp1": {
+   "__class__": "Quadrupole",
+   "k1": -0.004940450235433497,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_2": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp2": {
+   "__class__": "Quadrupole",
+   "k1": 0.004872760528670052,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_3": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp3": {
+   "__class__": "Quadrupole",
+   "k1": -0.004847935839554039,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_4": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp4": {
+   "__class__": "Quadrupole",
+   "k1": 0.005795955139718989,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_5": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp5": {
+   "__class__": "Quadrupole",
+   "k1": -0.004872343039010449,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_6": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp6": {
+   "__class__": "Quadrupole",
+   "k1": 0.0049024039003020894,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_7": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "qp7": {
+   "__class__": "Quadrupole",
+   "k1": -0.0051670919944520055,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "drift_RF_ins_8": {
+   "__class__": "Drift",
+   "length": 24.90464882152518
+  },
+  "drift_dd": {
+   "__class__": "Drift",
+   "length": 0.4000085675178503
+  },
+  "BSC0": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "_edge_exit_model": 0,
+   "k0_from_h": false,
+   "h": 0.0018737028665854376,
+   "length": 3.9297063439273074,
+   "angle": 0.007363102041455576,
+   "k0": 0.0018737028665854376,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BNC1": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "_edge_exit_model": 0,
+   "k0_from_h": false,
+   "h": -0.0003372665159853788,
+   "length": 13.341535731815098,
+   "angle": -0.004499653274163719,
+   "k0": -0.0003372665159853788,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BSC2": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "_edge_exit_model": 0,
+   "k0_from_h": false,
+   "h": 0.0018737028665854376,
+   "length": 3.929690233538431,
+   "angle": 0.007363071855373756,
+   "k0": 0.0018737028665854376,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BNC3": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "_edge_exit_model": 0,
+   "k0_from_h": false,
+   "h": -0.0003372665159853788,
+   "length": 13.341535731815098,
+   "angle": -0.004499653274163719,
+   "k0": -0.0003372665159853788,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BSC4": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "_edge_exit_model": 0,
+   "k0_from_h": false,
+   "h": 0.0018737028665854376,
+   "length": 3.929706343927308,
+   "angle": 0.007363102041455577,
+   "k0": 0.0018737028665854376,
+   "model": "adaptive",
+   "order": 5
+  },
+  "qp8": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp9": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp10": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp11": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp12": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp13": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp14": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp15": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp16": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp17": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp18": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp19": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp20": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp21": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp22": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp23": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp24": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp25": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp26": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp27": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp28": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp29": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp30": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp31": {
+   "__class__": "Quadrupole",
+   "k1": -0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    -0.050315443418366405,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  },
+  "qp32": {
+   "__class__": "Quadrupole",
+   "k1": 0.004727735211553504,
+   "knl": [
+    0.0,
+    0.0,
+    0.026051135248661445,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "length": 6.336366803474839
+  }
+ },
+ "element_names": [
+  "marker_beg",
+  "qp0",
+  "RF_acc_1",
+  "cavity_1",
+  "drift_RF_ins_1",
+  "qp1",
+  "drift_RF_ins_2",
+  "qp2",
+  "drift_RF_ins_3",
+  "qp3",
+  "drift_RF_ins_4",
+  "qp4",
+  "drift_RF_ins_5",
+  "qp5",
+  "drift_RF_ins_6",
+  "qp6",
+  "drift_RF_ins_7",
+  "qp7",
+  "drift_RF_ins_8",
+  "qp2",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp3",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp4",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp5",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp6",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp7",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp8",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp9",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp10",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp11",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp12",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp13",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp14",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp15",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp16",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp17",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp18",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp19",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp20",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp21",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp22",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp23",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp24",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp25",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp26",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp27",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp28",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp29",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp30",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp31",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "qp32",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp31",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp30",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp29",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp28",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp27",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp26",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp25",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp24",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp23",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp22",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp21",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp20",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp19",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp18",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp17",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp16",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp15",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp14",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp13",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp12",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp11",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp10",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp9",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp8",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp7",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp6",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp5",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp4",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp3",
+  "drift_dd",
+  "BSC4",
+  "drift_dd",
+  "BNC3",
+  "drift_dd",
+  "BSC2",
+  "drift_dd",
+  "BNC1",
+  "drift_dd",
+  "BSC0",
+  "drift_dd",
+  "qp2",
+  "drift_RF_ins_8",
+  "qp7",
+  "drift_RF_ins_7",
+  "qp6",
+  "drift_RF_ins_6",
+  "qp5",
+  "drift_RF_ins_5",
+  "qp4",
+  "drift_RF_ins_4",
+  "qp3",
+  "drift_RF_ins_3",
+  "qp2",
+  "drift_RF_ins_2",
+  "qp1",
+  "drift_RF_ins_1",
+  "cavity_1",
+  "RF_acc_1",
+  "qp0",
+  "marker_beg"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {},
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null
+ },
+ "particle_ref": {
+  "pdg_id": [
+   0
+  ],
+  "ay": [
+   0.0
+  ],
+  "particle_id": [
+   0
+  ],
+  "weight": [
+   1.0
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "at_turn": [
+   0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "q0": 1.0,
+  "chi": [
+   1.0
+  ],
+  "_rng_s2": [
+   0
+  ],
+  "y": [
+   0.0
+  ],
+  "state": [
+   1
+  ],
+  "_rng_s1": [
+   0
+  ],
+  "mass0": 105658375.49724458,
+  "t_sim": 1.1115595886278974e-05,
+  "py": [
+   0.0
+  ],
+  "at_element": [
+   0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "s": [
+   0.0
+  ],
+  "x": [
+   0.0
+  ],
+  "px": [
+   0.0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "ax": [
+   0.0
+  ],
+  "start_tracking_at_element": -1,
+  "_rng_s3": [
+   0
+  ],
+  "delta": [
+   0.0
+  ],
+  "ptau": [
+   -2.220446049250313e-16
+  ],
+  "rvv": [
+   1.0
+  ],
+  "rpp": [
+   1.0
+  ],
+  "p0c": [
+   1600000000000.0
+  ],
+  "beta0": [
+   0.9999999978195914
+  ],
+  "gamma0": [
+   15143.144080711136
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {},
+   "k1": -0.004940450235433497,
+   "k2": 0.004872760528670052,
+   "k3": -0.004847935839554039,
+   "k4": 0.005795955139718989,
+   "k5": -0.004872343039010449,
+   "k6": 0.0049024039003020894,
+   "k7": -0.0051670919944520055,
+   "k8": 0.004727735211553504,
+   "k9": -0.004727735211553504,
+   "ka": 0.004727735211553504,
+   "kb": -0.004727735211553504,
+   "k_sxt1": 0.026051135248661445,
+   "k_sxt2": -0.050315443418366405
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [
+  [
+   "element_refs['qp1'].k1",
+   "vars['k1']"
+  ],
+  [
+   "element_refs['qp2'].k1",
+   "vars['k2']"
+  ],
+  [
+   "element_refs['qp3'].k1",
+   "vars['k3']"
+  ],
+  [
+   "element_refs['qp4'].k1",
+   "vars['k4']"
+  ],
+  [
+   "element_refs['qp5'].k1",
+   "vars['k5']"
+  ],
+  [
+   "element_refs['qp6'].k1",
+   "vars['k6']"
+  ],
+  [
+   "element_refs['qp7'].k1",
+   "vars['k7']"
+  ],
+  [
+   "element_refs['qp8'].k1",
+   "vars['k8']"
+  ],
+  [
+   "element_refs['qp9'].k1",
+   "vars['k9']"
+  ],
+  [
+   "element_refs['qp10'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp12'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp14'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp16'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp18'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp20'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp22'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp24'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp26'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp28'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp30'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp32'].k1",
+   "vars['ka']"
+  ],
+  [
+   "element_refs['qp11'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp13'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp15'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp17'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp19'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp21'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp23'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp25'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp27'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp29'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp31'].k1",
+   "vars['kb']"
+  ],
+  [
+   "element_refs['qp32'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp31'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp30'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp29'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp28'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp27'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp26'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp25'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp24'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp23'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp22'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp21'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp20'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp19'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp18'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp17'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp16'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp15'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp14'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp13'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp12'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp11'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp10'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp9'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp8'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp7'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp6'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp5'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp4'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp3'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp2'].knl[2]",
+   "vars['k_sxt1']"
+  ],
+  [
+   "element_refs['qp1'].knl[2]",
+   "vars['k_sxt2']"
+  ],
+  [
+   "element_refs['qp0'].knl[2]",
+   "vars['k_sxt1']"
+  ]
+ ],
+ "metadata": {}
+}

@@ -1,0 +1,246 @@
+{
+ "elements": {
+  "drift_sss": {
+   "__class__": "Drift",
+   "length": 0.5631263064040979
+  },
+  "rot": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "h": 981.7477042468103,
+   "length": 1e-05,
+   "_edge_exit_model": 0,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BNC0_1": {
+   "__class__": "Bend",
+   "k1": 0.01143982918862089,
+   "_edge_entry_model": 0,
+   "length": 7.186833544164733,
+   "_edge_exit_model": 0,
+   "k0": 0.001366036514152925,
+   "model": "adaptive",
+   "order": 5
+  },
+  "rot1": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "h": 981.7477042468103,
+   "length": 1e-05,
+   "_edge_exit_model": 0,
+   "model": "adaptive",
+   "order": 5
+  },
+  "drift_1": {
+   "__class__": "Drift",
+   "length": 0.3000144580089481
+  },
+  "drift_sss.1": {
+   "__class__": "Drift",
+   "length": 0.5631263064040979
+  },
+  "drift_2": {
+   "__class__": "Drift",
+   "length": 0.3000144580089481
+  },
+  "rot2": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "h": 981.7477042468103,
+   "length": 1e-05,
+   "_edge_exit_model": 0,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BNC0_2": {
+   "__class__": "Bend",
+   "k1": -0.008466467344661907,
+   "_edge_entry_model": 0,
+   "length": 14.373667088329466,
+   "_edge_exit_model": 0,
+   "k0": 0.001366036514152925,
+   "model": "adaptive",
+   "order": 5
+  },
+  "rot3": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "h": 981.7477042468103,
+   "length": 1e-05,
+   "_edge_exit_model": 0,
+   "model": "adaptive",
+   "order": 5
+  },
+  "drift_3": {
+   "__class__": "Drift",
+   "length": 0.3000144580089481
+  },
+  "drift_sss.2": {
+   "__class__": "Drift",
+   "length": 0.5631263064040979
+  },
+  "drift_4": {
+   "__class__": "Drift",
+   "length": 0.3000144580089481
+  },
+  "rot4": {
+   "__class__": "Bend",
+   "_edge_entry_model": 0,
+   "h": 981.7477042468103,
+   "length": 1e-05,
+   "_edge_exit_model": 0,
+   "model": "adaptive",
+   "order": 5
+  },
+  "BNC0_3": {
+   "__class__": "Bend",
+   "k1": 0.01143982918862089,
+   "_edge_entry_model": 0,
+   "length": 7.186833544164733,
+   "_edge_exit_model": 0,
+   "k0": 0.001366036514152925,
+   "model": "adaptive",
+   "order": 5
+  }
+ },
+ "element_names": [
+  "BNC0_1",
+  "rot1",
+  "drift_1",
+  "drift_sss.1",
+  "drift_2",
+  "rot2",
+  "BNC0_2",
+  "rot3",
+  "drift_3",
+  "drift_sss.2",
+  "drift_4",
+  "rot4",
+  "BNC0_3"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {},
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null
+ },
+ "particle_ref": {
+  "at_element": [
+   0
+  ],
+  "_rng_s2": [
+   0
+  ],
+  "start_tracking_at_element": -1,
+  "px": [
+   0.0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "_rng_s3": [
+   0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "ay": [
+   0.0
+  ],
+  "y": [
+   0.0
+  ],
+  "ax": [
+   0.0
+  ],
+  "weight": [
+   1.0
+  ],
+  "state": [
+   1
+  ],
+  "x": [
+   0.0
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "_rng_s1": [
+   0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "q0": 1.0,
+  "s": [
+   0.0
+  ],
+  "chi": [
+   1.0
+  ],
+  "particle_id": [
+   0
+  ],
+  "at_turn": [
+   0
+  ],
+  "mass0": 105658375.49724458,
+  "py": [
+   0.0
+  ],
+  "pdg_id": [
+   0
+  ],
+  "delta": [
+   0.0
+  ],
+  "ptau": [
+   0.0
+  ],
+  "rvv": [
+   1.0
+  ],
+  "rpp": [
+   1.0
+  ],
+  "p0c": [
+   63000000000.0
+  ],
+  "beta0": [
+   0.9999985936421313
+  ],
+  "gamma0": [
+   596.2621354358537
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {}
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [],
+ "metadata": {}
+}

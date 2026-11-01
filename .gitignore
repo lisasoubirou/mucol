@@ -1,0 +1,10 @@
+*.txt
+*.o
+*.pdf
+*.pyc
+*.png
+*.pptx
+build/
+.vs/
+# *.json
+*.gif

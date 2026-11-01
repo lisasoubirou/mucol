@@ -1,0 +1,22 @@
+{
+    "filling_ratio_dipole": 0.6100207587861894,
+    "nb_cell_arc": 17,
+    "nb_arc": 8,
+    "cell_length": 36.55661764705882,
+    "NC_apert_hor": 0.09103227915658829,
+    "SC_apert_hor": 0,
+    "quad_apert_hor": 0.09103227915658829,
+    "apert_vert": 0.02317630780267151,
+    "path_length_diff_rel": 0.0,
+    "mcf": 0.0010394602302169697,
+    "pattern": [
+        "BNC"
+    ],
+    "qp_length": 4.244219851838013,
+    "dip_sc_length": 0,
+    "dip_nc_length": 13.43391303356351,
+    "gradient_qp_nc": 19.083360035787017,
+    "n_sigma": 3,
+    "sigma_delta": 0.03087872,
+    "add_quad": 3
+}

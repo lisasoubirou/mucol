@@ -1,0 +1,1012 @@
+{
+ "__class__": "Line",
+ "xtrack_version": "0.98.7",
+ "elements": {
+  "marker_beg_l": {
+   "__class__": "Marker"
+  },
+  "qp0_l": {
+   "__class__": "Quadrupole",
+   "k1": -0.01276907939055141,
+   "order": 5,
+   "length": 2.741681846740831
+  },
+  "RF_acc_1_l": {
+   "__class__": "ReferenceEnergyIncrease",
+   "Delta_p0c": 177556818.1818182
+  },
+  "cavity_1_l": {
+   "__class__": "Cavity",
+   "lag": 135.0,
+   "voltage": 251103260.36454102,
+   "frequency": 1300000000.0
+  },
+  "drift_RF_ins_1_l": {
+   "__class__": "Drift",
+   "length": 7.055698806518338
+  },
+  "qp1_l": {
+   "__class__": "Quadrupole",
+   "k1": 0.012784267186408741,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h0_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_0_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h0_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_0_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h0_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_0_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h0_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp2_l": {
+   "__class__": "Quadrupole",
+   "k1": -0.010752470990082443,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h1_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_0_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h1_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_0_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h1_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_0_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h1_0_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp3_l": {
+   "__class__": "Quadrupole",
+   "k1": 0.015482260906430166,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h0_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_1_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h0_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_1_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h0_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_1_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h0_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp4_l": {
+   "__class__": "Quadrupole",
+   "k1": -0.013358084978092117,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h1_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_1_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h1_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_1_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h1_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_1_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h1_1_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp5_l": {
+   "__class__": "Quadrupole",
+   "k1": 0.012995020448201722,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h0_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_2_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h0_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_2_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h0_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_2_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h0_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp6_l": {
+   "__class__": "Quadrupole",
+   "k1": -0.01276907939055141,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h1_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_2_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h1_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_2_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h1_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_2_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h1_2_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp7_l": {
+   "__class__": "Quadrupole",
+   "k1": 0.012784267186408741,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_0_h0_3_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_3_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_1_h0_3_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_3_l": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_2_h0_3_l": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_3_l": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_3_h0_3_l": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp8_r": {
+   "__class__": "Quadrupole",
+   "k1": -0.01276907939055141,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h0_3_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_3_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h0_3_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_3_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h0_3_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_3_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h0_3_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp7_r": {
+   "__class__": "Quadrupole",
+   "k1": 0.012784267186408741,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h1_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_2_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h1_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_2_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h1_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_2_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h1_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp6_r": {
+   "__class__": "Quadrupole",
+   "k1": -0.01276907939055141,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h0_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_2_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h0_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_2_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h0_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_2_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h0_2_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp5_r": {
+   "__class__": "Quadrupole",
+   "k1": 0.012995020448201722,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h1_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_1_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h1_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_1_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h1_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_1_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h1_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp4_r": {
+   "__class__": "Quadrupole",
+   "k1": -0.013358084978092117,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h0_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_1_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h0_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_1_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h0_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_1_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h0_1_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp3_r": {
+   "__class__": "Quadrupole",
+   "k1": 0.015482260906430166,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h1_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h1_0_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h1_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h1_0_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h1_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h1_0_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h1_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp2_r": {
+   "__class__": "Quadrupole",
+   "k1": -0.010752470990082443,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_dd_3_h0_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "BSC2_h0_0_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.0070124836017629345,
+   "order": 5,
+   "edge_entry_angle": 0.0035062203006075037,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_2_h0_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BNC1_h0_0_r": {
+   "__class__": "Bend",
+   "angle": -0.007012440601215011,
+   "k0": -0.0007195019063398202,
+   "edge_exit_angle": -0.0035062203006075037,
+   "order": 5,
+   "edge_entry_angle": -0.003506220300607507,
+   "length": 9.746243254431407
+  },
+  "drift_dd_1_h0_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000245872875373
+  },
+  "BSC0_h0_0_r": {
+   "__class__": "Bend",
+   "angle": 0.010518703902370438,
+   "k0": 0.003997232812999002,
+   "edge_exit_angle": 0.003506220300607507,
+   "order": 5,
+   "edge_entry_angle": 0.007012483601762931,
+   "length": 2.6314964362755178
+  },
+  "drift_dd_0_h0_0_r": {
+   "__class__": "Drift",
+   "length": 0.40000983518677147
+  },
+  "qp1_r": {
+   "__class__": "Quadrupole",
+   "k1": 0.012784267186408741,
+   "order": 5,
+   "length": 5.483363693481662
+  },
+  "drift_RF_ins_1_r": {
+   "__class__": "Drift",
+   "length": 7.055698806518338
+  },
+  "cavity_1_r": {
+   "__class__": "Cavity",
+   "lag": 135.0,
+   "voltage": 251103260.36454102,
+   "frequency": 1300000000.0
+  },
+  "RF_acc_1_r": {
+   "__class__": "ReferenceEnergyIncrease",
+   "Delta_p0c": 177556818.1818182
+  },
+  "qp0_r": {
+   "__class__": "Quadrupole",
+   "k1": -0.01276907939055141,
+   "order": 5,
+   "length": 2.741681846740831
+  },
+  "marker_beg_r": {
+   "__class__": "Marker"
+  }
+ },
+ "element_names": [
+  "marker_beg_l",
+  "qp0_l",
+  "RF_acc_1_l",
+  "cavity_1_l",
+  "drift_RF_ins_1_l",
+  "qp1_l",
+  "drift_dd_0_h0_0_l",
+  "BSC2_h0_0_l",
+  "drift_dd_1_h0_0_l",
+  "BNC1_h0_0_l",
+  "drift_dd_2_h0_0_l",
+  "BSC0_h0_0_l",
+  "drift_dd_3_h0_0_l",
+  "qp2_l",
+  "drift_dd_0_h1_0_l",
+  "BSC2_h1_0_l",
+  "drift_dd_1_h1_0_l",
+  "BNC1_h1_0_l",
+  "drift_dd_2_h1_0_l",
+  "BSC0_h1_0_l",
+  "drift_dd_3_h1_0_l",
+  "qp3_l",
+  "drift_dd_0_h0_1_l",
+  "BSC2_h0_1_l",
+  "drift_dd_1_h0_1_l",
+  "BNC1_h0_1_l",
+  "drift_dd_2_h0_1_l",
+  "BSC0_h0_1_l",
+  "drift_dd_3_h0_1_l",
+  "qp4_l",
+  "drift_dd_0_h1_1_l",
+  "BSC2_h1_1_l",
+  "drift_dd_1_h1_1_l",
+  "BNC1_h1_1_l",
+  "drift_dd_2_h1_1_l",
+  "BSC0_h1_1_l",
+  "drift_dd_3_h1_1_l",
+  "qp5_l",
+  "drift_dd_0_h0_2_l",
+  "BSC2_h0_2_l",
+  "drift_dd_1_h0_2_l",
+  "BNC1_h0_2_l",
+  "drift_dd_2_h0_2_l",
+  "BSC0_h0_2_l",
+  "drift_dd_3_h0_2_l",
+  "qp6_l",
+  "drift_dd_0_h1_2_l",
+  "BSC2_h1_2_l",
+  "drift_dd_1_h1_2_l",
+  "BNC1_h1_2_l",
+  "drift_dd_2_h1_2_l",
+  "BSC0_h1_2_l",
+  "drift_dd_3_h1_2_l",
+  "qp7_l",
+  "drift_dd_0_h0_3_l",
+  "BSC2_h0_3_l",
+  "drift_dd_1_h0_3_l",
+  "BNC1_h0_3_l",
+  "drift_dd_2_h0_3_l",
+  "BSC0_h0_3_l",
+  "drift_dd_3_h0_3_l",
+  "qp8_r",
+  "drift_dd_3_h0_3_r",
+  "BSC2_h0_3_r",
+  "drift_dd_2_h0_3_r",
+  "BNC1_h0_3_r",
+  "drift_dd_1_h0_3_r",
+  "BSC0_h0_3_r",
+  "drift_dd_0_h0_3_r",
+  "qp7_r",
+  "drift_dd_3_h1_2_r",
+  "BSC2_h1_2_r",
+  "drift_dd_2_h1_2_r",
+  "BNC1_h1_2_r",
+  "drift_dd_1_h1_2_r",
+  "BSC0_h1_2_r",
+  "drift_dd_0_h1_2_r",
+  "qp6_r",
+  "drift_dd_3_h0_2_r",
+  "BSC2_h0_2_r",
+  "drift_dd_2_h0_2_r",
+  "BNC1_h0_2_r",
+  "drift_dd_1_h0_2_r",
+  "BSC0_h0_2_r",
+  "drift_dd_0_h0_2_r",
+  "qp5_r",
+  "drift_dd_3_h1_1_r",
+  "BSC2_h1_1_r",
+  "drift_dd_2_h1_1_r",
+  "BNC1_h1_1_r",
+  "drift_dd_1_h1_1_r",
+  "BSC0_h1_1_r",
+  "drift_dd_0_h1_1_r",
+  "qp4_r",
+  "drift_dd_3_h0_1_r",
+  "BSC2_h0_1_r",
+  "drift_dd_2_h0_1_r",
+  "BNC1_h0_1_r",
+  "drift_dd_1_h0_1_r",
+  "BSC0_h0_1_r",
+  "drift_dd_0_h0_1_r",
+  "qp3_r",
+  "drift_dd_3_h1_0_r",
+  "BSC2_h1_0_r",
+  "drift_dd_2_h1_0_r",
+  "BNC1_h1_0_r",
+  "drift_dd_1_h1_0_r",
+  "BSC0_h1_0_r",
+  "drift_dd_0_h1_0_r",
+  "qp2_r",
+  "drift_dd_3_h0_0_r",
+  "BSC2_h0_0_r",
+  "drift_dd_2_h0_0_r",
+  "BNC1_h0_0_r",
+  "drift_dd_1_h0_0_r",
+  "BSC0_h0_0_r",
+  "drift_dd_0_h0_0_r",
+  "qp1_r",
+  "drift_RF_ins_1_r",
+  "cavity_1_r",
+  "RF_acc_1_r",
+  "qp0_r",
+  "marker_beg_r"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_spin_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {},
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null,
+  "corrector_limits_x": null,
+  "corrector_limits_y": null,
+  "end_compose_on_reload": true
+ },
+ "mode": "normal",
+ "particle_ref": {
+  "anomalous_magnetic_moment": [
+   0.0
+  ],
+  "y": [
+   0.0
+  ],
+  "q0": 1.0,
+  "_rng_s3": [
+   0
+  ],
+  "start_tracking_at_element": -1,
+  "_rng_s2": [
+   0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "spin_y": [
+   0.0
+  ],
+  "_rng_s1": [
+   0
+  ],
+  "weight": [
+   1.0
+  ],
+  "delta": [
+   0.0
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "rpp": [
+   1.0
+  ],
+  "particle_id": [
+   0
+  ],
+  "mass0": 105658375.5,
+  "t_sim": 1.1153545097996709e-06,
+  "rvv": [
+   1.0
+  ],
+  "spin_x": [
+   0.0
+  ],
+  "chi": [
+   1.0
+  ],
+  "pdg_id": [
+   0
+  ],
+  "at_turn": [
+   0
+  ],
+  "ay": [
+   0.0
+  ],
+  "state": [
+   1
+  ],
+  "beta0": [
+   0.999999990076718
+  ],
+  "px": [
+   0.0
+  ],
+  "ax": [
+   0.0
+  ],
+  "s": [
+   0.0
+  ],
+  "ptau": [
+   0.0
+  ],
+  "x": [
+   0.0
+  ],
+  "p0c": [
+   750000000000.0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "py": [
+   0.0
+  ],
+  "at_element": [
+   0
+  ],
+  "gamma0": [
+   7098.3488426098465
+  ],
+  "spin_z": [
+   0.0
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {}
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [],
+ "env_particles": {},
+ "metadata": {}
+}

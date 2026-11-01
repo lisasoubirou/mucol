@@ -1,0 +1,27 @@
+{
+    "type": "hybrid",
+    "circumference": 35000,
+    "injection_energy": 1500000000000.0,
+    "extraction_energy": 5000000000000.0,
+    "length_short_insertion": 7.720977460811156,
+    "dipole_spacing": 0.4,
+    "nb_RF_section": 24,
+    "nb_arc": 8,
+    "nb_cell_arc": 37,
+    "dipoles": {
+        "BNC": [
+            1.8,
+            "linear"
+        ],
+        "BSC": 16.0
+    },
+    "filling_ratio": 0.875,
+    "filling_ratio_RF": 0.4,
+    "pattern": [
+        "BSC",
+        "BNC",
+        "BSC",
+        "BNC",
+        "BSC"
+    ]
+}

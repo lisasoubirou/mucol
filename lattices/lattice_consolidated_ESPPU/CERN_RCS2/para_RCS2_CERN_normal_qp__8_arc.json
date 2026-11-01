@@ -1,0 +1,23 @@
+{
+    "type": "normal",
+    "circumference": 26659,
+    "injection_energy": 350000000000.0,
+    "extraction_energy": 1600000000000.0,
+    "length_short_insertion": 5.125174435914008,
+    "dipole_spacing": 0.3,
+    "nb_RF_section": 24,
+    "nb_arc": 8,
+    "nb_cell_arc": 43,
+    "dipoles": {
+        "BNC": [
+            0.39374998291688706,
+            1.8,
+            "linear"
+        ]
+    },
+    "filling_ratio": 0.85,
+    "filling_ratio_RF": 0.4,
+    "pattern": [
+        "BNC"
+    ]
+}

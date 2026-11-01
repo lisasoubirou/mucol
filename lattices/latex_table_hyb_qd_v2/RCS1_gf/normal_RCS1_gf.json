@@ -1,0 +1,931 @@
+{
+ "__class__": "Line",
+ "xtrack_version": "0.98.7",
+ "elements": {
+  "qnc": {
+   "__class__": "Quadrupole",
+   "order": 5,
+   "length": 2.1221928949829514
+  },
+  "drift": {
+   "__class__": "Drift",
+   "length": 0.3
+  },
+  "qnc.f": {
+   "__class__": "Quadrupole",
+   "order": 5,
+   "k1": 0.0182290541589221,
+   "length": 2.1221928949829514,
+   "prototype": "qnc"
+  },
+  "qnc.f2": {
+   "__class__": "Quadrupole",
+   "order": 5,
+   "k1": 0.0182290541589221,
+   "length": 2.1221928949829514,
+   "prototype": "qnc"
+  },
+  "qnc.d": {
+   "__class__": "Quadrupole",
+   "order": 5,
+   "k1": -0.0182290541589221,
+   "length": 2.1221928949829514,
+   "prototype": "qnc"
+  },
+  "qnc.d2": {
+   "__class__": "Quadrupole",
+   "order": 5,
+   "k1": -0.0182290541589221,
+   "length": 2.1221928949829514,
+   "prototype": "qnc"
+  },
+  "drift_0": {
+   "__class__": "Drift",
+   "length": 0.3000200113937285
+  },
+  "BNC0": {
+   "__class__": "Bend",
+   "order": 5,
+   "angle": 0.02309994598227789,
+   "length": 13.434211723079171,
+   "edge_exit_angle": 0.011549972991138946,
+   "edge_entry_angle": 0.011549972991138946,
+   "k0": 0.0017194865213113746
+  },
+  "drift_qd": {
+   "__class__": "Drift",
+   "length": 0.3000200113937285
+  },
+  "qnc.f..entry_map": {
+   "__class__": "ThinSliceQuadrupoleEntry",
+   "parent_name": "qnc.f"
+  },
+  "drift_qnc.f..0": {
+   "__class__": "DriftSliceQuadrupole",
+   "weight": 0.125,
+   "parent_name": "qnc.f"
+  },
+  "qnc.f..0": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f"
+  },
+  "drift_qnc.f..1": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.375,
+   "parent_name": "qnc.f"
+  },
+  "qnc.f..1": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f"
+  },
+  "drift_qnc.f..2": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.375,
+   "parent_name": "qnc.f"
+  },
+  "qnc.f..2": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f"
+  },
+  "drift_qnc.f..3": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.125,
+   "parent_name": "qnc.f"
+  },
+  "qnc.f..exit_map": {
+   "__class__": "ThinSliceQuadrupoleExit",
+   "slice_offset": 2.1221928949829514,
+   "parent_name": "qnc.f"
+  },
+  "qnc.f_entry": {
+   "__class__": "Marker"
+  },
+  "qnc.f_exit": {
+   "__class__": "Marker"
+  },
+  "qnc.f2..entry_map": {
+   "__class__": "ThinSliceQuadrupoleEntry",
+   "parent_name": "qnc.f2"
+  },
+  "drift_qnc.f2..0": {
+   "__class__": "DriftSliceQuadrupole",
+   "weight": 0.125,
+   "parent_name": "qnc.f2"
+  },
+  "qnc.f2..0": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f2"
+  },
+  "drift_qnc.f2..1": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.375,
+   "parent_name": "qnc.f2"
+  },
+  "qnc.f2..1": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f2"
+  },
+  "drift_qnc.f2..2": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.375,
+   "parent_name": "qnc.f2"
+  },
+  "qnc.f2..2": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.f2"
+  },
+  "drift_qnc.f2..3": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.125,
+   "parent_name": "qnc.f2"
+  },
+  "qnc.f2..exit_map": {
+   "__class__": "ThinSliceQuadrupoleExit",
+   "slice_offset": 2.1221928949829514,
+   "parent_name": "qnc.f2"
+  },
+  "qnc.f2_entry": {
+   "__class__": "Marker"
+  },
+  "qnc.f2_exit": {
+   "__class__": "Marker"
+  },
+  "BNC0..entry_map": {
+   "__class__": "ThinSliceBendEntry",
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..0": {
+   "__class__": "DriftSliceBend",
+   "weight": 0.125,
+   "parent_name": "BNC0"
+  },
+  "BNC0..0": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 1.6792764653848964,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..1": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 1.6792764653848964,
+   "weight": 0.375,
+   "parent_name": "BNC0"
+  },
+  "BNC0..1": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 6.7171058615395856,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..2": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 6.7171058615395856,
+   "weight": 0.375,
+   "parent_name": "BNC0"
+  },
+  "BNC0..2": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 11.754935257694274,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..3": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 11.754935257694274,
+   "weight": 0.125,
+   "parent_name": "BNC0"
+  },
+  "BNC0..exit_map": {
+   "__class__": "ThinSliceBendExit",
+   "slice_offset": 13.434211723079171,
+   "parent_name": "BNC0"
+  },
+  "BNC0_entry": {
+   "__class__": "Marker"
+  },
+  "BNC0_exit": {
+   "__class__": "Marker"
+  },
+  "qnc.d..entry_map": {
+   "__class__": "ThinSliceQuadrupoleEntry",
+   "parent_name": "qnc.d"
+  },
+  "drift_qnc.d..0": {
+   "__class__": "DriftSliceQuadrupole",
+   "weight": 0.125,
+   "parent_name": "qnc.d"
+  },
+  "qnc.d..0": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d"
+  },
+  "drift_qnc.d..1": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.375,
+   "parent_name": "qnc.d"
+  },
+  "qnc.d..1": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d"
+  },
+  "drift_qnc.d..2": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.375,
+   "parent_name": "qnc.d"
+  },
+  "qnc.d..2": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d"
+  },
+  "drift_qnc.d..3": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.125,
+   "parent_name": "qnc.d"
+  },
+  "qnc.d..exit_map": {
+   "__class__": "ThinSliceQuadrupoleExit",
+   "slice_offset": 2.1221928949829514,
+   "parent_name": "qnc.d"
+  },
+  "qnc.d_entry": {
+   "__class__": "Marker"
+  },
+  "qnc.d_exit": {
+   "__class__": "Marker"
+  },
+  "qnc.d2..entry_map": {
+   "__class__": "ThinSliceQuadrupoleEntry",
+   "parent_name": "qnc.d2"
+  },
+  "drift_qnc.d2..0": {
+   "__class__": "DriftSliceQuadrupole",
+   "weight": 0.125,
+   "parent_name": "qnc.d2"
+  },
+  "qnc.d2..0": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d2"
+  },
+  "drift_qnc.d2..1": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 0.2652741118728689,
+   "weight": 0.375,
+   "parent_name": "qnc.d2"
+  },
+  "qnc.d2..1": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d2"
+  },
+  "drift_qnc.d2..2": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.0610964474914757,
+   "weight": 0.375,
+   "parent_name": "qnc.d2"
+  },
+  "qnc.d2..2": {
+   "__class__": "ThinSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.3333333333333333,
+   "parent_name": "qnc.d2"
+  },
+  "drift_qnc.d2..3": {
+   "__class__": "DriftSliceQuadrupole",
+   "slice_offset": 1.8569187831100824,
+   "weight": 0.125,
+   "parent_name": "qnc.d2"
+  },
+  "qnc.d2..exit_map": {
+   "__class__": "ThinSliceQuadrupoleExit",
+   "slice_offset": 2.1221928949829514,
+   "parent_name": "qnc.d2"
+  },
+  "qnc.d2_entry": {
+   "__class__": "Marker"
+  },
+  "qnc.d2_exit": {
+   "__class__": "Marker"
+  },
+  "BNC0..entry_map_0": {
+   "__class__": "ThinSliceBendEntry",
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..4": {
+   "__class__": "DriftSliceBend",
+   "weight": 0.125,
+   "parent_name": "BNC0"
+  },
+  "BNC0..3": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 1.6792764653848964,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..5": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 1.6792764653848964,
+   "weight": 0.375,
+   "parent_name": "BNC0"
+  },
+  "BNC0..4": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 6.7171058615395856,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..6": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 6.7171058615395856,
+   "weight": 0.375,
+   "parent_name": "BNC0"
+  },
+  "BNC0..5": {
+   "__class__": "ThinSliceBend",
+   "slice_offset": 11.754935257694274,
+   "weight": 0.3333333333333333,
+   "parent_name": "BNC0"
+  },
+  "drift_BNC0..7": {
+   "__class__": "DriftSliceBend",
+   "slice_offset": 11.754935257694274,
+   "weight": 0.125,
+   "parent_name": "BNC0"
+  },
+  "BNC0..exit_map_0": {
+   "__class__": "ThinSliceBendExit",
+   "slice_offset": 13.434211723079171,
+   "parent_name": "BNC0"
+  }
+ },
+ "element_names": [
+  "qnc.f_entry",
+  "qnc.f..entry_map",
+  "drift_qnc.f..0",
+  "qnc.f..0",
+  "drift_qnc.f..1",
+  "qnc.f..1",
+  "drift_qnc.f..2",
+  "qnc.f..2",
+  "drift_qnc.f..3",
+  "qnc.f..exit_map",
+  "qnc.f_exit",
+  "qnc.f2_entry",
+  "qnc.f2..entry_map",
+  "drift_qnc.f2..0",
+  "qnc.f2..0",
+  "drift_qnc.f2..1",
+  "qnc.f2..1",
+  "drift_qnc.f2..2",
+  "qnc.f2..2",
+  "drift_qnc.f2..3",
+  "qnc.f2..exit_map",
+  "qnc.f2_exit",
+  "drift_0",
+  "BNC0_entry",
+  "BNC0..entry_map",
+  "drift_BNC0..0",
+  "BNC0..0",
+  "drift_BNC0..1",
+  "BNC0..1",
+  "drift_BNC0..2",
+  "BNC0..2",
+  "drift_BNC0..3",
+  "BNC0..exit_map",
+  "BNC0_exit",
+  "drift_qd",
+  "qnc.d_entry",
+  "qnc.d..entry_map",
+  "drift_qnc.d..0",
+  "qnc.d..0",
+  "drift_qnc.d..1",
+  "qnc.d..1",
+  "drift_qnc.d..2",
+  "qnc.d..2",
+  "drift_qnc.d..3",
+  "qnc.d..exit_map",
+  "qnc.d_exit",
+  "qnc.d2_entry",
+  "qnc.d2..entry_map",
+  "drift_qnc.d2..0",
+  "qnc.d2..0",
+  "drift_qnc.d2..1",
+  "qnc.d2..1",
+  "drift_qnc.d2..2",
+  "qnc.d2..2",
+  "drift_qnc.d2..3",
+  "qnc.d2..exit_map",
+  "qnc.d2_exit",
+  "drift_0",
+  "BNC0_entry",
+  "BNC0..entry_map_0",
+  "drift_BNC0..4",
+  "BNC0..3",
+  "drift_BNC0..5",
+  "BNC0..4",
+  "drift_BNC0..6",
+  "BNC0..5",
+  "drift_BNC0..7",
+  "BNC0..exit_map_0",
+  "BNC0_exit",
+  "drift_qd"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_spin_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {},
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null,
+  "corrector_limits_x": null,
+  "corrector_limits_y": null,
+  "end_compose_on_reload": true
+ },
+ "mode": "normal",
+ "composer": {
+  "__class__": "Builder",
+  "components": [
+   {
+    "name": {
+     "__class__": "Line",
+     "element_names": [
+      "qnc.f",
+      "qnc.f2",
+      "drift_0",
+      "BNC0",
+      "drift_qd",
+      "qnc.d",
+      "qnc.d2"
+     ],
+     "config": {
+      "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+      "XFIELDS_BB3D_NO_BEAMSTR": true,
+      "XFIELDS_BB3D_NO_BHABHA": true,
+      "XTRACK_GLOBAL_XY_LIMIT": 1.0
+     },
+     "_extra_config": {
+      "skip_end_turn_actions": false,
+      "reset_s_at_end_turn": true,
+      "matrix_responsiveness_tol": 1e-15,
+      "matrix_stability_tol": 0.002,
+      "dt_update_time_dependent_vars": 0.0,
+      "_t_last_update_time_dependent_vars": null,
+      "_radiation_model": null,
+      "_beamstrahlung_model": null,
+      "_bhabha_model": null,
+      "_spin_model": null,
+      "_needs_rng": false,
+      "enable_time_dependent_vars": false,
+      "twiss_default": {},
+      "steering_monitors_x": null,
+      "steering_monitors_y": null,
+      "steering_correctors_x": null,
+      "steering_correctors_y": null,
+      "corrector_limits_x": null,
+      "corrector_limits_y": null,
+      "end_compose_on_reload": true
+     },
+     "mode": "normal",
+     "particle_ref": {
+      "delta": [
+       0.0
+      ],
+      "start_tracking_at_element": -1,
+      "beta0": [
+       0.9999999433253415
+      ],
+      "px": [
+       0.0
+      ],
+      "spin_y": [
+       0.0
+      ],
+      "pdg_id": [
+       0
+      ],
+      "at_element": [
+       0
+      ],
+      "zeta": [
+       0.0
+      ],
+      "_rng_s2": [
+       0
+      ],
+      "x": [
+       0.0
+      ],
+      "p0c": [
+       313830000000.0
+      ],
+      "charge_ratio": [
+       1.0
+      ],
+      "parent_particle_id": [
+       0
+      ],
+      "py": [
+       0.0
+      ],
+      "spin_z": [
+       0.0
+      ],
+      "_rng_s4": [
+       0
+      ],
+      "spin_x": [
+       0.0
+      ],
+      "q0": 1.0,
+      "s": [
+       0.0
+      ],
+      "chi": [
+       1.0
+      ],
+      "ax": [
+       0.0
+      ],
+      "state": [
+       1
+      ],
+      "particle_id": [
+       0
+      ],
+      "weight": [
+       1.0
+      ],
+      "mass0": 105658375.5,
+      "anomalous_magnetic_moment": [
+       0.0
+      ],
+      "y": [
+       0.0
+      ],
+      "_rng_s3": [
+       0
+      ],
+      "gamma0": [
+       2970.233228564158
+      ],
+      "rpp": [
+       1.0
+      ],
+      "rvv": [
+       1.0
+      ],
+      "_rng_s1": [
+       0
+      ],
+      "ptau": [
+       0.0
+      ],
+      "at_turn": [
+       0
+      ],
+      "ay": [
+       0.0
+      ]
+     },
+     "env_particles": {},
+     "metadata": {}
+    }
+   },
+   {
+    "name": {
+     "__class__": "Line",
+     "element_names": [
+      "drift_0",
+      "BNC0",
+      "drift_qd"
+     ],
+     "config": {
+      "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+      "XFIELDS_BB3D_NO_BEAMSTR": true,
+      "XFIELDS_BB3D_NO_BHABHA": true,
+      "XTRACK_GLOBAL_XY_LIMIT": 1.0
+     },
+     "_extra_config": {
+      "skip_end_turn_actions": false,
+      "reset_s_at_end_turn": true,
+      "matrix_responsiveness_tol": 1e-15,
+      "matrix_stability_tol": 0.002,
+      "dt_update_time_dependent_vars": 0.0,
+      "_t_last_update_time_dependent_vars": null,
+      "_radiation_model": null,
+      "_beamstrahlung_model": null,
+      "_bhabha_model": null,
+      "_spin_model": null,
+      "_needs_rng": false,
+      "enable_time_dependent_vars": false,
+      "twiss_default": {},
+      "steering_monitors_x": null,
+      "steering_monitors_y": null,
+      "steering_correctors_x": null,
+      "steering_correctors_y": null,
+      "corrector_limits_x": null,
+      "corrector_limits_y": null,
+      "end_compose_on_reload": true
+     },
+     "mode": "normal",
+     "particle_ref": {
+      "delta": [
+       0.0
+      ],
+      "start_tracking_at_element": -1,
+      "beta0": [
+       0.9999999433253415
+      ],
+      "px": [
+       0.0
+      ],
+      "spin_y": [
+       0.0
+      ],
+      "pdg_id": [
+       0
+      ],
+      "at_element": [
+       0
+      ],
+      "zeta": [
+       0.0
+      ],
+      "_rng_s2": [
+       0
+      ],
+      "x": [
+       0.0
+      ],
+      "p0c": [
+       313830000000.0
+      ],
+      "charge_ratio": [
+       1.0
+      ],
+      "parent_particle_id": [
+       0
+      ],
+      "py": [
+       0.0
+      ],
+      "spin_z": [
+       0.0
+      ],
+      "_rng_s4": [
+       0
+      ],
+      "spin_x": [
+       0.0
+      ],
+      "q0": 1.0,
+      "s": [
+       0.0
+      ],
+      "chi": [
+       1.0
+      ],
+      "ax": [
+       0.0
+      ],
+      "state": [
+       1
+      ],
+      "particle_id": [
+       0
+      ],
+      "weight": [
+       1.0
+      ],
+      "mass0": 105658375.5,
+      "anomalous_magnetic_moment": [
+       0.0
+      ],
+      "y": [
+       0.0
+      ],
+      "_rng_s3": [
+       0
+      ],
+      "gamma0": [
+       2970.233228564158
+      ],
+      "rpp": [
+       1.0
+      ],
+      "rvv": [
+       1.0
+      ],
+      "_rng_s1": [
+       0
+      ],
+      "ptau": [
+       0.0
+      ],
+      "at_turn": [
+       0
+      ],
+      "ay": [
+       0.0
+      ]
+     },
+     "env_particles": {},
+     "metadata": {}
+    }
+   }
+  ],
+  "refer": "center",
+  "s_tol": 1e-06
+ },
+ "_element_names_before_slicing": [
+  "qnc.f",
+  "qnc.f2",
+  "drift_0",
+  "BNC0",
+  "drift_qd",
+  "qnc.d",
+  "qnc.d2",
+  "drift_0",
+  "BNC0",
+  "drift_qd"
+ ],
+ "particle_ref": {
+  "delta": [
+   0.0
+  ],
+  "start_tracking_at_element": -1,
+  "beta0": [
+   0.9999999433253415
+  ],
+  "px": [
+   0.0
+  ],
+  "spin_y": [
+   0.0
+  ],
+  "pdg_id": [
+   0
+  ],
+  "at_element": [
+   0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "_rng_s2": [
+   0
+  ],
+  "x": [
+   0.0
+  ],
+  "p0c": [
+   313830000000.0
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "py": [
+   0.0
+  ],
+  "spin_z": [
+   0.0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "spin_x": [
+   0.0
+  ],
+  "q0": 1.0,
+  "s": [
+   0.0
+  ],
+  "chi": [
+   1.0
+  ],
+  "ax": [
+   0.0
+  ],
+  "state": [
+   1
+  ],
+  "particle_id": [
+   0
+  ],
+  "weight": [
+   1.0
+  ],
+  "mass0": 105658375.5,
+  "anomalous_magnetic_moment": [
+   0.0
+  ],
+  "y": [
+   0.0
+  ],
+  "_rng_s3": [
+   0
+  ],
+  "gamma0": [
+   2970.233228564158
+  ],
+  "rpp": [
+   1.0
+  ],
+  "rvv": [
+   1.0
+  ],
+  "_rng_s1": [
+   0
+  ],
+  "ptau": [
+   0.0
+  ],
+  "at_turn": [
+   0
+  ],
+  "ay": [
+   0.0
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {},
+   "knc": 0.0182290541589221,
+   "lnc": 4.244385789965903,
+   "ldrift": 0.3
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [
+  [
+   "element_refs['qnc.f'].k1",
+   "vars['knc']"
+  ],
+  [
+   "element_refs['qnc.f2'].k1",
+   "vars['knc']"
+  ],
+  [
+   "element_refs['qnc.d'].k1",
+   "(-vars['knc'])"
+  ],
+  [
+   "element_refs['qnc.d2'].k1",
+   "(-vars['knc'])"
+  ]
+ ],
+ "env_particles": {},
+ "metadata": {}
+}
